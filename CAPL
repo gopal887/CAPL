@@ -1,0 +1,20 @@
+i will take the one of the requirment like the infotainment will be active ,whenever the wakeup signals is sending for every 100milliseconds
+that is the one of the requirment so here i am try to send the wakup signals for every 100 milliseconds 
+ shall i write
+
+variables
+{
+message 0x20 wake_up ;
+ms timer a;
+}
+on start 
+{
+set timer (a,100);
+}
+on timer a
+{
+wake_up.wake=1;
+output (wake_up);
+set timer (a,100);
+}
+like this we can wirte
