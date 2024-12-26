@@ -1,0 +1,45 @@
+if canoe start AAA msg should go on to the bus
+
+variable 
+{
+aaa;
+}
+on start
+{
+out put (aaa);
+}
+
+2.if i press key 'D' message should go on to the bus.
+variables
+{
+message aaa;
+}
+on key 'D'
+}
+output(aaa);
+}
+
+3 if i press any key message should go on to the bus
+variables
+{
+message aaa;
+}
+on key *
+{
+output (aaa);
+}
+
+4 if tool start after 10 milliseconds message should go on
+
+variables
+{
+msTimer t1;
+}
+on start
+{
+setTimer (t1,10);
+}
+on timer t1
+{
+output (aaa);
+}
