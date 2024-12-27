@@ -1,4 +1,5 @@
-if canoe start AAA msg should go on to the bus
+1)if canoe start AAA msg should go on to the bus
+
 
 variable 
 {
@@ -19,7 +20,7 @@ on key 'D'
 output(aaa);
 }
 
-3 if i press any key message should go on to the bus
+3) if i press any key message should go on to the bus
 variables
 {
 message aaa;
@@ -29,7 +30,7 @@ on key *
 output (aaa);
 }
 
-4 if tool start after 10 milliseconds message should go on
+4)if tool start after 10 milliseconds message should go on
 
 variables
 {
@@ -43,3 +44,4 @@ on timer t1
 {
 output (aaa);
 }
+

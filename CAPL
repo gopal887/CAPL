@@ -17,4 +17,6 @@ wake_up.wake=1;
 output (wake_up);
 set timer (a,100);
 }
+
 like this we can wirte
+
